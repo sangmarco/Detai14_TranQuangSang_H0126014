@@ -1,4 +1,6 @@
 # Đề tài 14 – Merge-Sort, Quick-Sort và cận dưới của bài toán sắp xếp
+Học viên: Trần Quang Sang - H0126014 - 
+Giảng viên: TS. Phạm Minh Chuẩn
 
 Dự án Python minh họa hai thuật toán sắp xếp theo phương pháp **chia để trị**, cách chọn **pivot** trong Quick-Sort, và **cận dưới của sắp xếp dựa trên phép so sánh**.
 
@@ -39,7 +41,7 @@ Mở Terminal trong thư mục dự án (nơi chứa `demo.py`), sau đó chạy
 python demo.py
 ```
 
-Hoặc chọn từng phần để thuyết trình:
+Hoặc:
 
 ```bash
 python demo.py --part merge       # Chia và trộn trong Merge-Sort
@@ -134,25 +136,7 @@ merge-quick-sort-de-tai-14/
     └── moi_truong_thu_nghiem.txt
 ```
 
-## 8. Đưa dự án lên GitHub
-
-**Cách dùng giao diện web:** Tạo repository mới trên GitHub, chọn **Add file → Upload files**, rồi tải **các file và thư mục bên trong** thư mục dự án lên (không tải nguyên tệp `.zip` như một file mã nguồn). Sau đó commit các thay đổi.
-
-**Cách dùng Git trên máy tính:** Mở Terminal tại thư mục dự án, chạy:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: Merge-Sort, Quick-Sort and lower bound"
-git branch -M main
-git remote add origin https://github.com/USERNAME/REPOSITORY.git
-git push -u origin main
-```
-
-Thay `USERNAME/REPOSITORY` bằng đường dẫn repository GitHub của bạn. Nếu dùng lệnh Git, hãy tạo repository **trống** (không chọn tạo README/gitignore trên GitHub) để tránh xung đột lịch sử commit.
-
-## 9. Tài liệu tham khảo
+## 8. Tài liệu tham khảo
 
 Goodrich, M. T., Tamassia, R., & Goldwasser, M. H. (2013). *Data Structures and Algorithms in Python*. Wiley. Chương 12: Sorting and Selection.
 
-> Dự án phục vụ học tập và kiểm chứng thuật toán; các số liệu benchmark chỉ mang tính thực nghiệm trong môi trường được ghi rõ.
