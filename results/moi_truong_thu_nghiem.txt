@@ -1,0 +1,6 @@
+Python: 3.13.5
+OS: Linux-6.18.57-x86_64-with-glibc2.41
+CPU: 
+Sizes: [300, 800, 1500]
+Repeats: 5
+Time: perf_counter_ns; summary: median (ms)
